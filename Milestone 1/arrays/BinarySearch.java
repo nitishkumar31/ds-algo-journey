@@ -73,12 +73,8 @@ public class BinarySearch {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int[] arr = takeInput();
-		int t = s.nextInt();
-		while(t>0) {
-			int x = s.nextInt();
-			System.out.println(binarySearch(arr, x));
-			t--;
-		}
+		int x = s.nextInt();
+		System.out.println(binarySearch(arr, x));
 	}
 
 }
