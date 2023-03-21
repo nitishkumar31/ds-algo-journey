@@ -46,7 +46,7 @@ public class CalculatePower {
 		
 
 		// Normal Approach
-//		smallAns = x * power(x, n-1);
+//		int smallAns = x * power(x, n-1);
 //		return smallAns;
 
 		

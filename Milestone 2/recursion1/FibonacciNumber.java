@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class FibonacciNumber {
 	
 	public static int fib(int n) {
-		if(n == 1 || n == 2) {
-			return 1;
+		if(n == 0 || n == 1) {
+			return n;
 		}
 		
 		int output = fib(n-1) + fib(n-2);
